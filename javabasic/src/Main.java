@@ -45,9 +45,9 @@ public class Main {
 //       stream obj= new stream();
  //         obj.filterusinghash();
  //         stream.map();
-       // stream.mapusinghash();
-        Dog d = new Dog("Tommy");
-        d.speak(); // Output: Tommy barks
+ // stream.mapusinghash();
+//        Dog d = new Dog("Tommy");
+//        d.speak(); // Output: Tommy barks
        Bird.parrot();
     }
 
