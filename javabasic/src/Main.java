@@ -48,7 +48,7 @@ public class Main {
        // stream.mapusinghash();
         Dog d = new Dog("Tommy");
         d.speak(); // Output: Tommy barks
-
+       Bird.parrot();
     }
 
 
