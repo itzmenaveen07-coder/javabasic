@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,6 +31,7 @@ public class stream {
         HashMap<String, Integer> hash = new HashMap<>();
         hash.put("Naveen", 100);
         hash.put("Akash", 200);
+        hash.put("praveen",500);
         hash.put("kiran", 300);
         hash.entrySet().stream().map(j -> Map.entry(j.getKey(), j.getValue() + 10)).
                 forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));;
