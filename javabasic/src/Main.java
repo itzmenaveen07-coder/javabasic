@@ -34,21 +34,21 @@ public class Main {
 //       DataStructures.ArrayListExample();
 //       DataStructures.LinkedList1();
 //       DataStructures.stack();
-//       DataStructures.hashmap();
+   //   DataStructures.hashmap();
 //       DataStructures.hashset();
 //       DataStructures.treeset();
 //       DataStructures.treemap();
-        //      DataStructures t= new DataStructures();
-        //      t.tree();
-        //      Generics.gen();
+//       DataStructures t= new DataStructures();
+//       t.tree();
+//       Generics.gen();
 //       stream.filter();
 //       stream obj= new stream();
-        //         obj.filterusinghash();
-        //         stream.map();
-        // stream.mapusinghash();
-        Dog d = new Dog("Tommy");
-        d.speak(); // Output: Tommy barks
-        Bird.parrot();
+//       obj.filterusinghash();
+//       stream.map();
+      stream.mapusinghash();
+//       Dog d = new Dog("Tommy");
+//       d.speak(); // Output: Tommy barks
+//       Bird.parrot();
     }
 
 
