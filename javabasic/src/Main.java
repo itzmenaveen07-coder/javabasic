@@ -34,7 +34,7 @@ public class Main {
 //       DataStructures.ArrayListExample();
 //       DataStructures.LinkedList1();
 //       DataStructures.stack();
-   //   DataStructures.hashmap();
+//       DataStructures.hashmap();
 //       DataStructures.hashset();
 //       DataStructures.treeset();
 //       DataStructures.treemap();
@@ -49,12 +49,6 @@ public class Main {
 //        Dog d = new Dog("Tommy");
 //        d.speak(); // Output: Tommy barks
 //        Bird.parrot();
-//       obj.filterusinghash();
-//       stream.map();
-      stream.mapusinghash();
-//       Dog d = new Dog("Tommy");
-//       d.speak(); // Output: Tommy barks
-//       Bird.parrot();
     }
 
 
