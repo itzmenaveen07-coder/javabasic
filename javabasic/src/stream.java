@@ -32,7 +32,7 @@ public class stream {
         hash.put("Naveen", 100);
         hash.put("Akash", 200);
         hash.put("praveen",500);
-        hash.put("kiran", 300);
+        hash.put("ajay", 300);
         hash.entrySet().stream().map(j -> Map.entry(j.getKey(), j.getValue() + 10)).
                 forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));;
                 System.out.println("hash :" + hash);
