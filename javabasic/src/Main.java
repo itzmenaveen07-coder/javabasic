@@ -38,9 +38,9 @@ public class Main {
 //       DataStructures.hashset();
 //       DataStructures.treeset();
 //       DataStructures.treemap();
-        //      DataStructures t= new DataStructures();
-        //      t.tree();
-        //      Generics.gen();
+//       DataStructures t= new DataStructures();
+//       t.tree();
+//       Generics.gen();
 //       stream.filter();
 //       stream obj= new stream();
 //         obj.filterusinghash();
