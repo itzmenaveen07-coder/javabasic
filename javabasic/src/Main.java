@@ -49,6 +49,7 @@ public class Main {
 //        Dog d = new Dog("Tommy");
 //        d.speak(); // Output: Tommy barks
 //        Bird.parrot();
+          TwoSumNumber.Sums();
     }
 
 
