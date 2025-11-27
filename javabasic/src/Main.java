@@ -1,9 +1,9 @@
 //import java.util.Scanner;
 
-public class Main {
-
-
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         System.out.println("Welcome to java!");
 
 //        System.out.println("call a method using static and Non-static");
@@ -48,8 +48,16 @@ public class Main {
 //        stream.mapusinghash();
 //        Dog d = new Dog("Tommy");
 //        d.speak(); // Output: Tommy barks
-//        Bird.parrot();
-          TwoSumNumber.Sums();
+//        Bird.parrot();//
+//        TwoSumNumber.Sums();
+//        TwoSumNumber.Anagram();
+//        Strings.Returnnonrepeated();
+//        Strings.Reversewithbuilder();
+ //       Strings.Reversewithoutstringbuilder();
+ //       Strings.palindrome();
+//        Strings.CountVowelsAndConsonants();
+//        Strings.Removespaces();
+          Strings.stringToInteger();
     }
 
 
