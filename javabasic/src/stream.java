@@ -1,14 +1,15 @@
-import java.util.Arrays;
+import java.util.*;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-public class stream {
+public class stream
+{
     // Creating a list of names
-    public static void filter() {
-        List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
+    public static void filter()
+    {
+       ArrayList<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Charlie", "David"));
         names.stream().filter(j -> j.endsWith("e")).forEach(System.out::println);
+        names.stream().filter(i-> i.startsWith("B")).forEach(System.out::println);
+        names.remove("Alice");
+        System.out.println(names);
 
     }
 
