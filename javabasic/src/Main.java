@@ -11,7 +11,7 @@ public class Main
 //   StaticPractice obj = new StaticPractice();// creating an object for method b using main class because it is non-static
 //   obj.B();// calling a method b using the object obj and the method name
 //   obj.C();
-   ControlStatement.Statement();
+//   ControlStatement.Statement();
 //   Scanner Number = new Scanner(System.in);
 //   System.out.print("Enter a number: ");
 //   int num1 = Number.nextInt();
