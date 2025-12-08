@@ -1,19 +1,21 @@
+import java.util.Arrays;
 import java.util.HashMap;
 
+import static jdk.internal.org.jline.utils.Colors.s;
+
 public class Strings {
-    static String reverse = "";
+//
 
     public static void Returnnonrepeated()
     {
         String a = "swiss";
         char[] b = a.toCharArray();
         HashMap<Character, Integer> map = new HashMap<>();
-
         for (char ch : b)
         {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
-
+            map.getOrDefault(ch, map.getOrDefault(ch,0)+1);
         }
+
         System.out.println("Non-repeated characters:");
         for (char ch : b)
         {
@@ -31,14 +33,17 @@ public class Strings {
         StringBuilder b = new StringBuilder(a);
         b.reverse();
         System.out.println(b);
+        StringBuilder s = new StringBuilder();
+
     }
 
     public static void Reversewithoutstringbuilder()
     {
         String a = "swiss";
+        String reverse = "";
         char[] b = a.toCharArray();
         HashMap<Character, Integer> map = new HashMap<>();
-        for (int i = b.length - 1; i >= 0; i--) {
+        for (int i = b.length-1; i >= 0; i--) {
             reverse += b[i];
         }
         System.out.println(reverse);
@@ -46,6 +51,7 @@ public class Strings {
 
     public static void palindrome()
     {
+        String reverse = "";
         String a = "madam";
         char[] b = a.toCharArray();
         HashMap<Character, Integer> map = new HashMap<>();
@@ -100,6 +106,7 @@ public class Strings {
     public static void stringToInteger(){
 
         String a= "7558";
+        char b= s;
         int number=Integer.parseInt(a);
         System.out.println(number);
     }

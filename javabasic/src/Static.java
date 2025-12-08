@@ -1,4 +1,4 @@
-public class StaticPractice {
+public class Static {
     public static void A(){
         int m=100;
     System.out.println(m);

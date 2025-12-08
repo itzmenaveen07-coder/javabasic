@@ -7,7 +7,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="javabasic" options="" />
+      <module name="javabasic" options="--add-modules jdk.internal.le,jdk.hotspot.agent --add-exports jdk.internal.le/jdk.internal.org.jline.utils=ALL-UNNAMED --add-exports jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED" />
     </option>
   </component>
 </project>

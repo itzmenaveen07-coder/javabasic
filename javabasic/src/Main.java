@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
-        System.out.println("Welcome to java!");
+public class Main {
+    public static void main(String[] args) {
+//   System.out.println("Welcome to java!");
 
 //   System.out.println("call a method using static and Non-static");
 //   StaticPractice.A();// calling using main class directly using a method name because it is static 'or' we can also call using class name.method name
@@ -45,14 +43,11 @@ public class Main
 //   TwoSumNumber.Anagram();
 //   Strings.Returnnonrepeated();
 //   Strings.Reversewithbuilder();
-//   Strings.Reversewithoutstringbuilder();
+//  Strings.Reversewithoutstringbuilder();
 //   Strings.palindrome();
 //   Strings.CountVowelsAndConsonants();
 //   Strings.Removespaces();
 //   Strings.stringToInteger();
     }
-
-
 }
-
 
