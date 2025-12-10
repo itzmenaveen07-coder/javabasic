@@ -3,11 +3,10 @@ import java.util.*;
 public class stream
 {
     // Creating a list of names
-    public static void filter()
-    {
-       ArrayList<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Charlie", "David"));
+    public static void filter() {
+        ArrayList<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Charlie", "David"));
         names.stream().filter(j -> j.endsWith("e")).forEach(System.out::println);
-        names.stream().filter(i-> i.startsWith("B")).forEach(System.out::println);
+        names.stream().filter(i -> i.startsWith("B")).forEach(System.out::println);
         names.remove("Alice");
         System.out.println(names);
 
@@ -32,13 +31,20 @@ public class stream
         HashMap<String, Integer> hash = new HashMap<>();
         hash.put("Naveen", 100);
         hash.put("Akash", 200);
-        hash.put("praveen",500);
+        hash.put("praveen", 500);
         hash.put("ajay", 300);
         hash.entrySet().stream().map(j -> Map.entry(j.getKey(), j.getValue() + 10)).
                 forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
-                System.out.println("hash :" + hash);
+        System.out.println("hash :" + hash);
 
     }
 
+    public static void SecondLargest()
+    {
+       List<Integer> number = Arrays.asList(34,75,85,38,9,53,9);
+      int secondlargest = number.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElseThrow(RuntimeException::new);
+        System.out.println(secondlargest);
+
+    }
     
 }

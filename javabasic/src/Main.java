@@ -19,6 +19,7 @@ public class Main {
 //   System.out.println("The sum of "+num1 +" and "+num2 +" is "+sum +".");
 //   System.out.println("Date and time");
 //   CurrentDateTime.date();
+//   Animal.speak();
 //   System.out.println("Data structures");
 //   DataStructures.ArrayExample();
 //   DataStructures.ArrayListExample();
@@ -36,6 +37,7 @@ public class Main {
 //   obj.filterusinghash();
 //   stream.map();
 //   stream.mapusinghash();
+//   stream.SecondLargest();
 //   Dog d = new Dog("Tommy");
 //   d.speak(); // Output: Tommy barks
 //   Bird.parrot();//
@@ -48,6 +50,12 @@ public class Main {
 //   Strings.CountVowelsAndConsonants();
 //   Strings.Removespaces();
 //   Strings.stringToInteger();
+     encaspulation c= new encaspulation();
+
+
+
+
+
     }
 }
 
