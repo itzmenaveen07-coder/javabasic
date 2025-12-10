@@ -9,6 +9,7 @@ public class Main {
 //   StaticPractice obj = new StaticPractice();// creating an object for method b using main class because it is non-static
 //   obj.B();// calling a method b using the object obj and the method name
 //   obj.C();
+
 //   ControlStatement.Statement();
 //   Scanner Number = new Scanner(System.in);
 //   System.out.print("Enter a number: ");
@@ -19,7 +20,9 @@ public class Main {
 //   System.out.println("The sum of "+num1 +" and "+num2 +" is "+sum +".");
 //   System.out.println("Date and time");
 //   CurrentDateTime.date();
-//   Animal.speak();
+
+
+
 //   System.out.println("Data structures");
 //   DataStructures.ArrayExample();
 //   DataStructures.ArrayListExample();
@@ -31,6 +34,8 @@ public class Main {
 //   DataStructures.treemap();
 //   DataStructures t= new DataStructures();
 //   t.tree();
+
+
 //   Generics.gen();
 //   stream.filter();
 //   stream obj= new stream();
@@ -50,12 +55,15 @@ public class Main {
 //   Strings.CountVowelsAndConsonants();
 //   Strings.Removespaces();
 //   Strings.stringToInteger();
-     encaspulation c= new encaspulation();
 
 
-
-
-
+     // Encaspulation
+//     Encaspulation c= new Encaspulation("Naveen" ,25);
+//     Encaspulation.Car m = new Encaspulation.Car("Blue", 78);
+//     m.start();
+//     m.setSpeed(80);
+//     m.start();;
     }
+
 }
 
