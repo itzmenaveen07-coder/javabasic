@@ -58,17 +58,23 @@ public class Main
 
 
      // Encaspulation
-//     Encaspulation c= new Encaspulation("Naveen" ,25);
-//     Encaspulation.Car m = new Encaspulation.Car("blue",100);
-//     m.start();
-//     m.setSpeed(80);
-//     m.start();;
+//  Encaspulation c= new Encaspulation("Naveen" ,25);
+//  Encaspulation.Car m = new Encaspulation.Car("blue",100);
+//  m.start();
+//  m.setSpeed(80);
+//  m.start();;
 //
 
-    //classexample
-    classexample tuffy = new classexample("tuffy", "papillon", 5, "white");
-    System.out.println(tuffy);
-
+//    //classexample
+//  classexample tuffy = new classexample("tuffy", "papillon", 5, "white");
+//  System.out.println(tuffy);
+//
+//  abstractionExampleTV remote = new tvremote();
+//  remote.turnon();
+//
+//  abstractionExampleTV battery = new tvbattery();
+//  battery.turnon();
+    abstractionExampleTV.add();
 }
 }
 
