@@ -1,7 +1,7 @@
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
 //   System.out.println("Welcome to java!");
 
 //   System.out.println("call a method using static and Non-static");
@@ -59,11 +59,16 @@ public class Main {
 
      // Encaspulation
 //     Encaspulation c= new Encaspulation("Naveen" ,25);
-//     Encaspulation.Car m = new Encaspulation.Car("Blue", 78);
+//     Encaspulation.Car m = new Encaspulation.Car("blue",100);
 //     m.start();
 //     m.setSpeed(80);
 //     m.start();;
-    }
+//
 
+    //classexample
+    classexample tuffy = new classexample("tuffy", "papillon", 5, "white");
+    System.out.println(tuffy);
+
+}
 }
 
