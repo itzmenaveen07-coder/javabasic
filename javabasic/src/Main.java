@@ -35,9 +35,11 @@ public class Main
 //   Generics.gen();
 //   stream.filter();
 //   stream obj= new stream();
+//   Employee.streamEmployee();
 //   obj.filterusinghash();
 //   stream.map();
 //   stream.mapusinghash();
+//   stream.sortlist();
 //   Dog d = new Dog("Tommy");
 //   d.speak(); // Output: Tommy barks
 //   Bird.parrot();//
@@ -47,9 +49,43 @@ public class Main
 //   Strings.Reversewithbuilder();
 //   Strings.Reversewithoutstringbuilder();
 //   Strings.palindrome();
+//   Strings.palindrome1();
 //   Strings.CountVowelsAndConsonants();
 //   Strings.Removespaces();
-//   Strings.stringToInteger();
+ //  Strings.stringToInteger();
+//   Strings.countVowelsAndConsonants();
+ //       Strings.parantheses();
+//   Runnable obj1 = new A();
+//   Runnable obj2 = new B();
+//   Thread t1 = new Thread(obj1);
+//   Thread t2 = new Thread(obj2);
+//   t1.start();
+//   t2.start();
+//   Counter c = new Counter();
+//   System.out.println(c.count);
+//
+//
+//        Animals a = new Dogs();   // Allowed
+//        a.sound();
+
+//        Functioninterfacess.Flyable flyingDuck = (i,j) ->System.out.println(i+j);
+//        Functioninterfacess.Swimmable swimmingDuck = () -> System.out.println("Duck is swimming!");
+//        flyingDuck.fly(5,8); // Outputs: Duck is flying!
+//        flyingDuck.glide(); // Outputs: Flying with a glide!
+//
+//        swimmingDuck.swim(); // Outputs: Duck is swimming!
+//        swimmingDuck.dive(); // Outputs: Swimming with a dive!
+
+//        Parent p = new Child();
+//        p.show();
+
+//        second.test();
+//        second.tests();
+
+
+             test.nextinteger();
+
+
     }
 
 

@@ -40,7 +40,7 @@ public class DataStructures {
         Arraylist.add(50);
         System.out.println(Arraylist);//Printing the Arraylist
 
-        Arraylist.set(3, Integer.valueOf("100"));// changing value in list using index
+        Arraylist.set(3,100);// changing value in list using index
         System.out.println(Arraylist);
 
         //Removing an element in a list once we remove an element index will be varied for other elements
@@ -346,6 +346,7 @@ public class DataStructures {
     }
 
     // Find the maximum value in the tree
+    @org.jetbrains.annotations.Contract(pure = true)
     public static int findMaxValue(TreeNode node) {
         if (node.right == null)
             return node.value;
