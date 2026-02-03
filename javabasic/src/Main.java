@@ -1,9 +1,10 @@
 //import java.util.Scanner;
 
+import java.io.IOException;
+
 public class Main
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws IOException {
         System.out.println("Welcome to java!");
 
 //   System.out.println("call a method using static and Non-static");
@@ -81,10 +82,8 @@ public class Main
 
 //        second.test();
 //        second.tests();
-
-
-             test.nextinteger();
-
+//        test.nextinteger();
+       FilesExample.createFile();
 
     }
 
