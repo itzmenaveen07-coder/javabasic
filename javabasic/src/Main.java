@@ -1,10 +1,9 @@
 //import java.util.Scanner;
 
-import java.io.IOException;
-
 public class Main
 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)
+    {
         System.out.println("Welcome to java!");
 
 //   System.out.println("call a method using static and Non-static");
@@ -55,35 +54,33 @@ public class Main
 //   Strings.Removespaces();
  //  Strings.stringToInteger();
 //   Strings.countVowelsAndConsonants();
- //       Strings.parantheses();
+//   Strings.parantheses();
+//   Functions.charc();
 //   Runnable obj1 = new A();
 //   Runnable obj2 = new B();
-//   Thread t1 = new Thread(obj1);
-//   Thread t2 = new Thread(obj2);
-//   t1.start();
-//   t2.start();
+//   A obj1=new A();
+//   B obj2=new B();
+//   obj1.show();
+//   obj2.show();
+//   obj1.start();
+//   obj2.start();
 //   Counter c = new Counter();
 //   System.out.println(c.count);
-//
-//
-//        Animals a = new Dogs();   // Allowed
-//        a.sound();
-
-//        Functioninterfacess.Flyable flyingDuck = (i,j) ->System.out.println(i+j);
-//        Functioninterfacess.Swimmable swimmingDuck = () -> System.out.println("Duck is swimming!");
-//        flyingDuck.fly(5,8); // Outputs: Duck is flying!
-//        flyingDuck.glide(); // Outputs: Flying with a glide!
-//
-//        swimmingDuck.swim(); // Outputs: Duck is swimming!
-//        swimmingDuck.dive(); // Outputs: Swimming with a dive!
-
-//        Parent p = new Child();
-//        p.show();
-
-//        second.test();
-//        second.tests();
-//        test.nextinteger();
-       FilesExample.createFile();
+//   Animals a = new Dogs();   // Allowed
+//   a.sound();
+//   Functioninterfacess.Flyable flyingDuck = (i,j) ->System.out.println(i+j);
+//  Functioninterfacess.Swimmable swimmingDuck = () -> System.out.println("Duck is swimming!");
+//  flyingDuck.fly(5,8); // Outputs: Duck is flying!
+//  flyingDuck.glide(); // Outputs: Flying with a glide!
+//  swimmingDuck.swim(); // Outputs: Duck is swimming!
+//  swimmingDuck.dive(); // Outputs: Swimming with a dive!
+//  Parent p = new Child();
+//  p.show();
+//  second.test();
+//  second.tests();
+//  test.nextinteger();
+    zoho.questions();
+    FilesExample.createFile();
 
     }
 
