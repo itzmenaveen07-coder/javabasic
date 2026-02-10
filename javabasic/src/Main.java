@@ -79,8 +79,9 @@ public class Main
 //  second.test();
 //  second.tests();
 //  test.nextinteger();
-    zoho.questions();
-
+//  zoho.questions();
+//  zoho.aestrik();
+    Functioninterfacess.FunctioninterfacessExample();
     }
 
 
