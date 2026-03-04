@@ -2,8 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Strings {
-
-
     public static void Returnnonrepeated() {
         String a = "swiss";
         char[] b = a.toCharArray();
@@ -104,13 +102,12 @@ public class Strings {
         System.out.println(number);
     }
 
-    public static void CountVowelsAndConsonants(String str) {
+    public static void CountVowelsAndConsonants() {
 
         Map<String, Integer> map = new HashMap<>();
         map.put("Vowels", 0);
         map.put("Consonants", 0);
-
-        str = str.toLowerCase();
+        String str = "hello";
         char[] b = str.toCharArray();
         for (char ch : b) {
 
