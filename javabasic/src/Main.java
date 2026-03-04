@@ -38,7 +38,7 @@ public class Main
 //   stream obj= new stream();
 //   Employee.streamEmployee();
 //   obj.filterusinghash();
-//   stream.map();
+//   stream.map ();
 //   stream.mapusinghash();
 //   stream.sortlist();
 //   Dog d = new Dog("Tommy");
@@ -76,6 +76,9 @@ public class Main
 //  test.nextinteger();
 //   zoho.questions();
 //  FilesExample.createFile();
+        DatabaseConnection db = DatabaseConnection.getInstance();
+//        db.connect();
+//        db.connected();
 
     }
 

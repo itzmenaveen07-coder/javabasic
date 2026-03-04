@@ -1,36 +1,8 @@
-//import javax.swing.tree.TreeNode;
-//import java.util.*;
+//import java.util.ArrayList;
+//public class DataStructures{
 //
-//public class DataStructures {
-//    public static void ArrayExample()
-//    {
-//        System.out.println("Array");
-//        int[] tree = {10, 20, 30, 40, 50}; // Initialize an array of integers
-//        System.out.println("Element at index 0:" + tree[0]);
-//        System.out.println("Element at index 2:" + tree[2]);
-//        System.out.println("Element at index 4:" + tree[4]);
+//public static void ArrayListExample() {
 //
-//        int sum = 0;
-//        // length represents the total size of the array
-//        for (int j : tree) {
-//            sum = sum + j;
-//        }
-//        System.out.println("Sum of array elements:" + sum); // Adding all elements in an array
-//        tree[2] = 35; // Update an element in the array
-//        System.out.println("Updated element at index 2:" + tree[2]);
-//        System.out.println("Elements in the array:");
-////      for (int number:tree)// using for each loop printing the elements of the array
-////            {
-////                System.out.println(number);
-////            }
-//        // using for loop printing the elements of the array
-//        for (int number : tree) {
-//            System.out.println(number);
-//        }
-//
-//    }
-//
-//    public static void ArrayListExample() {
 //        System.out.println("Array list");
 //        ArrayList<Integer> Arraylist= new ArrayList<>();//creating an instance of ArrayList
 //        Arraylist.add(10);// Adding an element to the Arraylist

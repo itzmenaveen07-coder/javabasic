@@ -2,6 +2,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Comparator;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class FilesExample {
@@ -29,8 +31,6 @@ public class FilesExample {
             }
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
-            e.printStackTrace();
         }
     }
-
 }
