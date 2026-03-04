@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class streams {
     // Creating a list of names
@@ -15,7 +13,6 @@ public class streams {
         System.out.println(names);
         names.stream().map(list -> list.toLowerCase()).forEach(System.out::println);
     }
-}
     public static void sortlist()
     {
         ArrayList<Integer> m = new ArrayList<>(Arrays.asList(3, 57, 8, 8, 4, 3));
